@@ -1,0 +1,36 @@
+.list-container {
+  list-style-type: none;
+}
+.text-container {
+  display: flex;
+  border: 1px solid #d7dae6;
+  border-radius: 5px;
+  width: 90%;
+  padding: 10px;
+  justify-content: space-between;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+p {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.question-text {
+  color: #52606d;
+}
+.answer-text {
+  color: #9aa5b1;
+  border: 1px solid #e4e7eb;
+  border-radius: 5px;
+  width: 90%;
+  padding: 10px;
+}
